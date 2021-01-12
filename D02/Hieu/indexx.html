@@ -1,0 +1,26 @@
+<html>
+    <body>
+    <script>
+        let arr = [1]
+        let n = prompt ("nhap so")
+        if (n==1){
+            console.log (arr)
+        }
+        if (n==2){
+            arr.push(1)
+            console.log (arr)
+        }
+        if (n>2)
+            arr.push(1)
+            for(let i=0 ; i<n-2 ; i++){
+            let a = arr[arr.length - 1]
+            let b = arr[arr.length - 2]
+            arr.push (a + b)
+        }
+       console.log(arr) 
+        
+            
+    </script>
+    
+    </body>
+</html>

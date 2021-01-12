@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Giới thiệu bản thân</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body style="background-color: #DEA3F3">
+
+	<div id="First" style="font-size:50px">
+		<b>Thông Tin Cá Nhân</b>
+	</div>
+	<div id="Hinh">
+		<img src="./1.png" width="400px" height="500px">
+	</div>
+	<div id="New" style="background-color: #88C6ED">
+		<ul >
+			<li style="font-size:30px"><img src="./avatar.png" width="25px" height="25px"> <b>Họ Tên:</b> Hoàng Phạm Khương Duy</li>
+			<li style="font-size:30px"><img src="./house.png" width="25px" height="25px"> <b>Địa chỉ:</b> 74 Bùi Quang Là</li>
+			<li style="font-size:30px"><img src="./tag.png" width="25px" height="25px"> <b>Ngày sinh:</b> 04/03/2000</li>
+			<li style="font-size:30px"><img src="./phone.png" width="25px" height="25px"> <b>Số điện thoại:</b> 0337622894</li>
+			<li style="font-size:30px"><img src="./heart.png" width="25px" height="25px"> <b>Giới tính:</b> Nam</li>
+			<li style="font-size:30px"><img src="./book.png" width="25px" height="25px"> <b>Học vấn:</b> Đại học Hoa Sen</li>
+		</ul>
+	</div>
+	  <script type="text/javascript">
+	  	let arr = [1];
+		let n = prompt("Nhập sl phần tử: ");
+		if ( n == 0 ){
+        	alert('nhập sai sinh nhập lại,F5')
+		}
+        
+		if ( n == 1 ){
+			console.log(arr)
+		}
+		if(n == 2){
+			arr.push(1)
+			console.log(arr)
+		}
+		if(n > 2){
+			arr.push(1)
+			for (let i = 0; i < n - 2; i++) 
+			{
+			let a = arr[arr.length-1]
+			let b = arr[arr.length-2]
+			arr.push(a + b)	
+			}
+			console.log(arr)
+		}
+	</script> 
+</body>
+</html>

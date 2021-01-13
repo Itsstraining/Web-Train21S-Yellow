@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(64, 146, 115);
+}
+.div02{
+    background-color: rgb(114, 87, 38);
+    height: 300px;
+    width: 300px;
+
+    margin-left: 516px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    margin-top: 100px;
+
+}

@@ -1,0 +1,18 @@
+#div01 {
+    background-color: aquamarine;
+    height: 100px;
+    padding: 100px;
+    margin: 100px;
+    border: 10px;
+    border-style: solid;
+    border-color: chartreuse;
+}
+
+#div02 {
+    background-color: blueviolet;
+    height: 200px;
+}
+#div03 p{
+    color: red;
+    background-color: seagreen;
+}

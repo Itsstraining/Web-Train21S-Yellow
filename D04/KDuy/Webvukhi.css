@@ -1,0 +1,62 @@
+body{
+    background-color: dimgray;
+}
+
+header {
+    padding: auto;
+    grid-column: 1 / 4;
+    background-color: dimgray;
+  }
+
+.main {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+  }
+
+.main .Dau1 h6{
+      color: aliceblue;
+      margin-left: 50px;
+  } 
+.main .Dau1 h6 b{
+    text-align: center;
+} 
+
+.main .Dau1 h6 a{
+    float: right;
+    display: block;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+
+
+.left-side {
+    grid-column: 1 / 2;
+    background-color: black;
+
+  }
+
+main {
+    grid-column: 2 / 3;
+    background-color: mintcream;
+    min-height: 1000px;
+  }
+
+.right-side {
+    grid-column: 3 / 4;
+    background-color: black;
+  }
+
+footer {
+    grid-column: 1 / 4;
+    background-color: deeppink;
+  }
+
+footer > audio{
+  text-align: center;
+
+}
+
+footer  b{
+  text-align: center;
+}

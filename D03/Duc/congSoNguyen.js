@@ -8,14 +8,6 @@ else {
     int1 = addZero(int2.length, int1)
 }
 
-
-
-
-
-
-
-
-
 function sum(a, b) {
     let res = ''
     let n = a.length

@@ -1,0 +1,39 @@
+1trăm linh(0) 9
+0trăm 8mươi 9
+3trăm 14 
+0trăm 2mươi 5(lăm)
+0trăm linh(0) tư(4) 004
+7 mươi tư
+mười 4
+
+số + trăm(* 0 đầu tiên bỏ)
+số + mươi :x90 9 mươi      
+           x91 9 mươi mốt
+           x94 9 mươi tư
+           x95 9 mươi lăm
+
+           x50 5 mươi
+           x51--
+           x54 5 mươi tư
+           x55 5 mươi lăm
+
+           x40 4 mươi
+           x41 4 mươi mốt
+           x44 4 mưởi tư
+           x45 4 mưởi lăm
+
+           x10 mười
+           x11 mười 1
+           x14 mười 4
+           x15 mười lăm
+           
+           x00 bỏ qua**
+           x01 linh 1
+           x04 linh tư
+           x05 linh năm
+
+
+
+
+
+

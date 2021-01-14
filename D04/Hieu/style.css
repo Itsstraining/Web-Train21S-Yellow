@@ -1,0 +1,35 @@
+.parent {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+  }
+  
+header {
+    padding: 2rem;
+    grid-column: 1 / 4;
+    background-color: rgb(145, 204, 204);
+  }
+
+.left-side {
+    grid-column: 1 / 2;
+    background-color: rgb(230, 212, 225);
+
+  }
+
+main {
+    grid-column: 2 / 3;
+    background-color: rgb(230, 212, 225);
+    min-height: 1000px;
+  }
+
+.right-side {
+    grid-column: 3 / 4;
+    background-color: rgb(230, 212, 225);
+  }
+
+footer {
+    grid-column: 1 / 4;
+    background-color: rgb(236, 170, 205);
+  }
+.div01{
+
+}

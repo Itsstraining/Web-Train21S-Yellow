@@ -6,29 +6,31 @@
 header {
     padding: 2rem;
     grid-column: 1 / 4;
-    background-color: rgb(145, 204, 204);
+    background-color: rgb(204, 243, 243);
   }
 
 .left-side {
     grid-column: 1 / 2;
-    background-color: rgb(230, 212, 225);
+    background-color: rgb(255, 255, 255);
 
   }
 
 main {
+    text-align: center;
+    column-count: 1;
     grid-column: 2 / 3;
-    background-color: rgb(230, 212, 225);
+    background-color: rgb(255, 255, 255);
     min-height: 1000px;
   }
 
 .right-side {
     grid-column: 3 / 4;
-    background-color: rgb(230, 212, 225);
+    background-color: rgb(255, 255, 255);
   }
 
 footer {
     grid-column: 1 / 4;
-    background-color: rgb(236, 170, 205);
+    background-color: rgb(255, 255, 255);
   }
 .div01{
 

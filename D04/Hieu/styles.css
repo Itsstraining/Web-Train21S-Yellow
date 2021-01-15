@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(204, 243, 243);
+}
+.div01{background-color: rgb(253, 251, 104);padding: 15px;
+     width: 500px; 
+     margin-left: 400px; 
+     margin-top: 50px;
+     border-radius: 15px;
+text-align: center;}

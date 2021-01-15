@@ -1,5 +1,37 @@
 body{
-    background-color: dimgray;
+    background-color: black;
+}
+#menu ul {
+	margin: 0px;
+  padding: 0px;
+  margin-left: 35px;
+  
+}
+
+#menu ul li{
+	list-style: none;
+  float: left;
+  /* width: 15%; */
+}
+#menu ul li a {
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	height: 40px;
+	line-height: 40px;
+	color: #000000;
+  padding: 0px 38.5px 0px 38.5px;
+	border: 1px solid #000000;
+	background: #D3D3D3;
+  margin-top:0px;
+  margin-bottom: 2px;
+
+  
+}
+
+#menu ul li a:hover {
+  color: orange;
+  background-color: darkorchid;
 }
 
 header {
@@ -7,19 +39,20 @@ header {
     grid-column: 1 / 4;
     background-color: dimgray;
   }
-
+header h6 :hover {
+    color: black;
+}
 .main {
     display: grid;
     grid-template: auto 1fr auto / auto 1fr auto;
+    
   }
 
 .main .Dau1 h6{
       color: aliceblue;
       margin-left: 50px;
   } 
-.main .Dau1 h6 b{
-    text-align: center;
-} 
+
 
 .main .Dau1 h6 a{
     float: right;
@@ -27,8 +60,6 @@ header {
     text-decoration: none;
     margin-right: 50px;
 }
-
-
 
 .left-side {
     grid-column: 1 / 2;
@@ -38,22 +69,25 @@ header {
 
 main {
     grid-column: 2 / 3;
-    background-color: mintcream;
-    min-height: 1000px;
+    background-color: orange;
+    min-height: auto;
+    display: none;
   }
 
 .right-side {
     grid-column: 3 / 4;
     background-color: black;
   }
+  
 
 footer {
     grid-column: 1 / 4;
-    background-color: deeppink;
+    background-color: dimgray;
   }
 
 footer > audio{
   text-align: center;
+  display: none;
 
 }
 

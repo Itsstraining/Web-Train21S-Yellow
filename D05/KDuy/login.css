@@ -1,0 +1,40 @@
+body{
+    background-color: orange;
+}
+#btdangnhap {
+    background-color: chartreuse;
+    color: cornsilk;
+    border-radius: 10px;
+    width: 178px;
+}
+#main{
+    padding: 150px 100px 380px 100px;
+    background-color: cyan;
+    margin: 50px 200px 30px 200px;
+    border-radius: 10px;
+}
+
+#main #left{
+    width: auto;
+    float: left;
+    padding: 50px 50px 50px 50px;
+    background-color: papayawhip;
+    border-radius: 150px;
+    margin-top: -50px;
+}
+
+#main #right{
+    width: 300px;
+	float: right;
+	text-align: right;
+    margin-bottom: 100px;
+}
+
+#main #right input{
+    border-radius: 10px;
+}
+
+#main #right p a{
+    text-decoration: none;
+	color: mediumblue;
+}

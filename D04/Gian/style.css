@@ -1,0 +1,24 @@
+.parent {
+    display: grid;
+    grid-template: auto 1fr auto / auto 1fr auto;
+    text-align: center;
+  }
+  
+header {
+  
+    padding: 2rem;
+    grid-column: 1 / 4;
+    background-color:white ;
+  }
+
+main {
+
+    grid-column: 2 / 3;
+    background-color:rosybrown;
+    min-height: 1000px;
+  }
+
+footer {
+    grid-column: 1 / 4;
+    background-color: deeppink;
+  }

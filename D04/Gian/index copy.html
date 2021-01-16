@@ -5,7 +5,7 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lauout</title>
+    <title>Pets Shop</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
@@ -13,24 +13,35 @@
 <body>
     <div class="parent">
         <header class="pink section">
-            <img src="https://image.shutterstock.com/image-vector/pet-shop-logo-animals-cat-260nw-638783371.jpg" alt="">
-        </header>
+            <img src="https://image.shutterstock.com/image-vector/pet-shop-logo-animals-cat-260nw-638783371.jpg" alt=""
+                style="
+            width: 250px;
+        ">
 
-        <main class="section coral" contenteditable>
+        </header>
+        <footer>
+            <button class="button1"> Home </button>
+            <button class="button1"> About Us </button>
+            <button class="button1"> Cart </button>
+            <a href="index.html"><button class="button2"> Sign in </button></a>
+            <a href="index2.html"><button class="button2"> Sign up </button></a>
+        </footer>
+
+        <main class="section coral" >
             <br>
             <div class="w3-row-padding">
-                <div class="w3-third">
+                <!-- <div class="w3-third">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPHS_oTIE6Jd1jBdtdbOpNDLSQOzxIiGI7fvzsuiI_YfP14ZLjs6Ov_8xFHnskOP-0ScOSS6A&usqp=CAc"
                         alt="">
                     <p>Ổ đệm cho thú cưng POPPY PETS</p>
-                    <p><b> Giá: 365,000 VNĐ <button>add to cart</button></b></p>
+                    <p><b> Giá: 365,000 VNĐ <button class="btadd">add to cart</button></b></p>
                 </div>
 
                 <div class="w3-third">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu0OhDSFa8bU10uK90eAzvKwAMnKBGYnmptxWByfae_iIMeBq839_kH5qBvvyf8x0wmq5D0_60&usqp=CAc"
                         alt="">
                     <p>Thức ăn cho mèo Whiskas</p>
-                    <b> Giá: 80,000 VNĐ <button>add to cart</button> </b>
+                    <b> Giá: 80,000 VNĐ <button class="btadd">add to cart</button> </b>
 
 
                 </div>
@@ -39,37 +50,56 @@
                     <img src="data:image/jpeg;base64,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"
                         alt="" style="width: 210px;">
                     <p>Đồ chơi cho mèo</p>
-                    <p><b> Giá: 999,000 VNĐ <button>add to cart</button></b></p>
+                    <p><b> Giá: 999,000 VNĐ <button class="btadd">add to cart</button></b></p>
                 </div>
                 <div class="w3-third">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAfWghFHC0nysVqjv57T24SqkvQQN2cbTiPA&usqp=CAU"
                         alt="" style="width: 210px;">
                     <p>Đồ chơi cho mèo</p>
-                    <p><b> Giá: 60,000 VNĐ <button>add to cart</button></b></p>
+                    <p><b> Giá: 60,000 VNĐ <button class="btadd">add to cart</button></b></p>
                 </div>
                 <div class="w3-third">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx4QYAmWQsqIA20dZApeADpQV7BzEAWAjSykPjfIMRY7hSkiZQ2cx582BuBxPU5Hq_TeuPpb8&usqp=CAc"
                         alt="" style="width: 210px;">
                     <p>Thức ăn cho chó </p>
-                    <p><b> Giá: 215,000 VNĐ <button>add to cart</button></b></p>
-                </div>
-                <div class="w3-third">
+                    <p><b> Giá: 215,000 VNĐ <button class="btadd">add to cart</button></b></p>
+                </div> -->
+                <div id="div0"></div>
+                <div id="div1"></div>
+                <div id="div2"></div>
+                <div id="div3"></div>
+                <div id="div4"></div>
+                <div id="div5"></div>
+
+                <!-- <div class="w3-third">
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2CWoyZ2E6IwDymSJ3HKzRE-wuHtaDvo6epQ&amp;usqp=CAU"
-                        alt=" style=" width:="" 210px;="" style="
+                        alt="" style="width: 210px;">
+                    <p>Thức ăn cho chó </p>
+                    <p><b> Giá: 215,000 VNĐ <button class="btadd">add to cart</button></b></p>
+                </div> -->
+
+
+
+                <!-- <div class="w3-third">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2CWoyZ2E6IwDymSJ3HKzRE-wuHtaDvo6epQ&amp;usqp=CAU"
+                        alt=" style=" width:="210px" ;="" style="
     width: 210px;
     height: 210px;">
                     <p>Bát ăn cho thú cưng</p>
-                    <p><b> Giá: 60,000 VNĐ <button>add to cart</button></b></p>
-                </div>
+                    <p><b> Giá: 60,000 VNĐ <button class="btadd">add to cart</button></b></p>
+                </div> -->
             </div>
 
 
         </main>
 
-        <footer class="green section">Footer</footer>
+        <footer class="green section">Hotline: (+84) 123 123 123</footer>
     </div>
 
-    <script src="./script.js"></script>
+    <script src="script.js"></script>
+    <script src="./cart.js"></script>
+
+
 </body>
 
 </html>

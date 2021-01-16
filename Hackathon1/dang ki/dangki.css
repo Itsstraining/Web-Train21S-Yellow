@@ -1,0 +1,59 @@
+.div01{
+    text-align: center;
+    }
+    .navBar{
+    background-color: red;
+    text-align: center;
+      color:white;
+      margin: 0%;
+    
+    }
+    .button {
+    background-color: black;
+    border: none;
+    color: white;
+    font-size: large;
+    }
+    .button1:hover{
+        background-color: white;
+        color: red;
+    }
+    .button2:hover{
+        background-color: white;
+        color: red;
+    }
+    .button3:hover{
+        background-color: white;
+        color: red;
+    }
+    .button4:hover{
+        background-color: white;
+        color: red;
+    }
+    .loginBox{background-color: black;
+        display: flex;
+        justify-content: center;
+    
+    }
+    .loginBut{
+        background-color:black;
+        display: flex;
+        justify-content: center;
+    }
+    .button5:hover{
+        background-color:red;
+        color: white;
+    }.bd{
+        background-color: black;
+    }
+    p{
+        color: white;
+        text-align: center;
+        font-size: 150%;
+    }
+    label{
+        color: white;
+    }
+    td {
+        color: white;
+    }

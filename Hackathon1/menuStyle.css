@@ -1,0 +1,96 @@
+/* img {
+    display: block; margin-left: auto; margin-right: auto;
+    max-width: width 977.078px;
+    max-height:600px;  */
+.menuall{
+    /* margin-left: 300px; */
+}
+
+.riotpic{
+    float: left;
+    width: 130px;
+}
+
+.mainbackround{
+background-color: black;
+}
+.hd1{
+    background-color:black;
+    width: 1341px;
+}
+#wrap{margin:0 auto;
+    position:relative;
+}
+    /* #menu{
+        padding:5px;
+        display:block; */
+    /* } */
+    #menu li,#menu li a, #sub li a{
+        display:block;
+        /* color: white; */
+        text-align:center;
+        /* background-color:rgb(255, 255, 255); */
+    }
+    .select1{
+        margin-top: 0px;
+    }
+    #menu li{
+        float:left;
+        list-style:none;
+        height:30px;
+        width:150px;
+        padding:0px;
+       
+        }
+    #menu li a, #sub li a{
+        color: white;
+        text-decoration:none;
+        padding:5px;
+    }
+    #sub li{
+        clear:both;
+        /* border:thin #FFF solid; */
+        margin-top:0px;
+        text-align: center;
+    }
+    #menu #sub{
+        visibility:hidden;
+        padding:0px;
+        display:block;
+    }
+    #menu li:hover #sub{
+        visibility:visible;
+        }
+    #menu li:hover a {
+
+    }
+    #menu li:hover #sub li a{
+        /* background:whitesmoke; */
+
+    }
+    #menu li #sub li:hover a{
+        background:rgba(255, 0, 0, 0.5);
+    }
+
+    .br{
+        height: 768px;
+        width: 1366px;
+
+    }
+    .dangnhap:hover{
+        background-color: black;
+        color: white;
+    }
+    
+#dangnhap{
+    margin-bottom: 15px;
+    border-bottom-width: 33px;
+    margin-left: 1180px;
+    color: white;
+
+}
+
+
+
+   
+    

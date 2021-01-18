@@ -1,0 +1,45 @@
+<div class="All">
+    <div style="margin:2%">
+      <div class="title">Calculator</div>
+      <div>
+        <form name="calculator">
+          <table>
+
+            <tr>
+              <td colspan="3"><input type="text" name="display" disabled/></td>
+              <td><input type="button" value="Clear" onclick="calculator.display.value = '' " /></td>
+            </tr>
+
+            <tr>
+              <td><input type="button" value="1" onclick="calculator.display.value +=1" /> </td>
+              <td><input type="button" value="2" onclick="calculator.display.value +=2" /> </td>
+              <td><input type="button" value="3" onclick="calculator.display.value +=3" /> </td>
+              <td><input type="button" value="/" onclick="calculator.display.value += '/' " /> </td>
+            </tr>
+            
+            <tr>
+              <td><input type="button" value="4" onclick="calculator.display.value +=4" /> </td>
+              <td><input type="button" value="5" onclick="calculator.display.value +=5" /> </td>
+              <td><input type="button" value="6" onclick="calculator.display.value +=6" /> </td>
+              <td><input type="button" value="-" onclick="calculator.display.value +='-'" /> </td>
+            </tr>
+
+            <tr>
+              <td><input type="button" value="7" onclick="calculator.display.value +=7" /> </td>
+              <td><input type="button" value="8" onclick="calculator.display.value +=8" /> </td>
+              <td><input type="button" value="9" onclick="calculator.display.value +=9" /> </td>
+              <td><input type="button" value="+" onclick="calculator.display.value +='+'" /> </td>
+            </tr>
+
+            <tr>
+              <td><input type="button" value="." onclick="calculator.display.value +='.'" /> </td>
+              <td><input type="button" value="0" onclick="calculator.display.value +=0" /> </td>
+              <td><input style="background-color: rgb(255, 89, 89);" type="button" value="=" onclick="calculator.display.value = eval(calculator.display.value)" /></td>
+              <td><input type="button" value="*" onclick="calculator.display.value +='*'" /> </td>
+            </tr>
+
+          </table>
+        </form>
+      </div>
+    </div>
+</div>

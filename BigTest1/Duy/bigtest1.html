@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="bigtest1.css">
+</head>
+<body>
+    <form name="maytinh">
+        <table  colspan="4" >
+            <tr >
+                <td colspan="4">
+                    <h1 style="color: white; margin-left: 20px;">Calculator JS</h1>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="4">
+                    <input style="color: cyan; background-color: black;" type="text" name="ketqua" disabled>
+                </td>
+            </tr>
+            <tr >
+                <td><input type="button" name="một" value="1" onclick="maytinh.ketqua.value += 1"></td>
+                <td><input type="button" name="hai" value="1" onclick="maytinh.ketqua.value += 2"></td>
+                <td><input type="button" name="ba" value="1" onclick="maytinh.ketqua.value += 3"></td>
+                <td><input type="button" class="pheptinh" name="cộng" value="+" onclick="maytinh.ketqua.value += '+' "></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="bốn" value="4" onclick="maytinh.ketqua.value += 4"></td>
+                <td><input type="button" name="năm" value="5" onclick="maytinh.ketqua.value += 5"></td>
+                <td><input type="button" name="sáu" value="6" onclick="maytinh.ketqua.value += 6"></td>
+                <td><input type="button" class="pheptinh" name="trừ" value="-" onclick="maytinh.ketqua.value += '-' "></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="bảy" value="7" onclick="maytinh.ketqua.value += 7"></td>
+                <td><input type="button" name="tám" value="8" onclick="maytinh.ketqua.value += 8"></td>
+                <td><input type="button" name="chính" value="9" onclick="maytinh.ketqua.value += 9"></td>
+                <td><input type="button" class="pheptinh" name="nhân" value="*" onclick="maytinh.ketqua.value += '*' "></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="pheptinh"  name="xóa" value="DEL" onclick="maytinh.ketqua.value = ''"></td>
+                <td><input type="button" name="không" value="0" onclick="maytinh.ketqua.value += 0"></td>
+                <td><input type="button" class="pheptinh" name="bằng" value="=" onclick="maytinh.ketqua.value = eval(maytinh.ketqua.value)"></td>
+                <td><input type="button" class="pheptinh" name="chia" value="/" onclick="maytinh.ketqua.value += '/' "></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

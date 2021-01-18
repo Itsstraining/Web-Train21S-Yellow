@@ -1,0 +1,24 @@
+.Title
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color:blue;
+    border-style: solid;
+    border-color: blue;
+    color: white;
+    width: 100px;
+    padding: 2%;
+}
+
+.Table
+{
+    background-color:blue;
+    border-style: solid;
+    border-color: rgb(2, 2, 2);
+    padding: 1%;
+}
+
+table, td, th 
+{
+    border: 1px solid white;
+}

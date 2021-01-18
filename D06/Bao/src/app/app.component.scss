@@ -1,0 +1,57 @@
+.title
+{ 
+    margin-bottom: 10px; 
+    text-align:center;
+    font-size: 50px;
+    width: 610px; 
+    color:white; 
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    background-color:rgb(101, 101, 255); 
+    box-shadow: 3px 3px grey;
+    text-shadow: 2px 2px black;
+}
+
+input[type="button"] 
+{ 
+    background-color:rgb(101, 101, 255); 
+    color: white; 
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    width: 150px;
+    height: 50px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 3px 3px grey;
+    text-shadow: 2px 2px black;
+} 
+  
+input[type="text"] 
+{ 
+    box-shadow: 3px 3px grey;
+    background-color:white; 
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    width: 450px;
+    height: 50px;
+    font-size: 45px;
+    color: black;
+    text-align:end;
+    text-shadow: 2px 2px white
+}
+
+.All
+{
+    border: solid black;
+    width: auto;
+    height: 1000px;
+    margin-left:30%;
+    margin-top: 10%;
+    box-shadow: 3px 3px grey;
+    border-radius: 20px;
+    height: 370px;
+    width: 640px;
+}

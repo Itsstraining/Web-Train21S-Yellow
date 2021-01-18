@@ -1,0 +1,46 @@
+<form name="Calculator">
+  <table>
+    <tr>
+      <td colspan="4"><label>Calculator</label></td>
+    </tr>
+    <tr>
+      <td colspan="4"><input type="text" name="Display" disabled></td>
+    </tr>
+    <tr>
+
+      <td><input type="button" id="clear" class="Clear" value="C" onClick="Calculator.Display.value=''"></td>
+      <td><input type="button" value="." onClick="Calculator.Display.value+='.'"></td>
+      <td><input type="button" value="0" onClick="Calculator.Display.value+='0'"></td>
+      <td><input type="button" class="operator" name="plus" value="+" onClick="Calculator.Display.value+='+'"></td>
+    </tr>
+
+    <tr>
+      <td><input type="button" value="1" onClick="Calculator.Display.value+='1'"></td>
+      <td><input type="button" value="2" onClick="Calculator.Display.value+='2'"></td>
+      <td><input type="button" value="3" onClick="Calculator.Display.value+='3'"></td>
+      <td><input type="button" class="operator" name="div" value="/" onClick="Calculator.Display.value+='/'"></td>
+    </tr>
+
+    <tr>
+      <td><input type="button" value="4" onClick="Calculator.Display.value+='4'"></td>
+      <td><input type="button" value="5" onClick="Calculator.Display.value+='5'"></td>
+      <td><input type="button" value="6" onClick="Calculator.Display.value+='6'"></td>
+      <td><input type="button" class="operator" name="time" value="*" onClick="Calculator.Display.value+='*'"></td>
+    </tr>
+
+    <tr>
+      <td><input type="button" value="7" onClick="Calculator.Display.value+='7'"></td>
+      <td><input type="button" value="8" onClick="Calculator.Display.value+='8'"></td>
+      <td><input type="button" value="9" onClick="Calculator.Display.value+='9'"></td>
+      <td><input type="button" class="operator" name="equal" value="=" onClick="Calculator.Display.value = eval(Calculator.Display.value)"></td>
+
+    </tr>
+    <tr>
+      <td><input type="button" id="del" class="del" value="D"
+          onClick="Calculator.Display.value= Calculator.Display.value.substr(0, Calculator.Display.value.length - 1)">
+      </td>
+
+    </tr>
+  </table>
+
+</form>

@@ -1,0 +1,84 @@
+.header
+{
+    background-color: rgb(57, 57, 224);
+    text-align: left;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.screen
+{
+    background-color: black;
+    overflow: hidden;
+    
+}
+
+.screen h3
+{
+    padding: 15px 20px;
+    color: rgb(61, 61, 197);
+    text-decoration: none;
+}
+
+.screen h1
+{
+    float: right;
+    color: rgb(61, 61, 197);
+    margin-right: 30px;
+    font-size: xx-large;
+}
+
+.function
+{
+    background-color: rgb(61, 61, 197);
+    overflow: hidden;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.function a
+{
+    margin: 10px 10px 10px 10px;
+    width: 50%;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(70, 70, 236);
+}
+
+.column
+{
+    width: 25%;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+}
+
+.column p
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background-color: rgb(70, 70, 236);
+    color: white;
+    height: 10%;
+}
+
+.row
+{
+    content: "";
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(61, 61, 197);
+}

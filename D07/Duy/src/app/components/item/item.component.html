@@ -1,0 +1,10 @@
+<div class="sanpham1"> 
+    <img src="{{item.img}}">
+    <p>{{item.id}}: {{item.ten}}</p>
+    <p>Số lượng: {{item.soluong}}</p>
+    <p>Giá: {{item.gia}} Đồng</p>
+    <p *ngIf="!item.trangthai">Trạng thái: Còn hàng</p>
+    <p *ngIf="item.trangthai">Trạng thái: Hết hàng</p>
+    <p><app-counter></app-counter></p>
+    <button>Mua hàng</button> 
+</div>

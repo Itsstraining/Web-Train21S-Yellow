@@ -1,0 +1,22 @@
+.navbar
+{
+    background-color:gray;
+    border-style: solid;
+     justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 150px;
+    color: white;
+}
+.footer 
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    height: 10%;
+    font-size: 25pt;
+ }

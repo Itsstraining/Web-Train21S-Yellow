@@ -1,0 +1,7 @@
+<img src="{{item.img}}" alt="" height="170px">
+<p>{{item.id}}</p>
+<p>{{item.name}}</p>
+<p>{{item.price}}</p>
+<p>{{item.quantity}}</p>
+<p *ngIf="!item.stock">Còn hàng</p>
+<p *ngIf="item.stock">Hết hàng</p>

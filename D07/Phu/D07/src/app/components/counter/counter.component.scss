@@ -1,0 +1,32 @@
+.header
+{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+
+.header h2
+{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2px;
+}
+
+
+.header button
+{
+    width: 40px;
+    margin: 50px 30px 50px 30px;
+    border-radius: 10px;
+    border-width: 1px;
+    border-style: solid;
+    height: 60px;
+}
+

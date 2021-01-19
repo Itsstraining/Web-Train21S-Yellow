@@ -1,0 +1,13 @@
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  app-item{
+   
+    flex: 1 1 300px;
+    border: 1px solid red;
+    font-size: 2rem;
+    text-align: center;
+  }
+  

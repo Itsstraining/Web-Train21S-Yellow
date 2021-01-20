@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>D08</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+  <app-root></app-root>
+  <script>
+    document.querySelectorAll('.button').forEach(button => button.addEventListener('click', e => {
+    if(!button.classList.contains('loading')) {
+
+        button.classList.add('loading');
+
+        setTimeout(() => button.classList.remove('loading'), 3700);
+
+    }
+    e.preventDefault();
+}));
+
+  </script>
+</body>
+</html>

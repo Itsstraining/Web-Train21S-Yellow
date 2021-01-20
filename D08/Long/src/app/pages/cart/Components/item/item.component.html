@@ -1,0 +1,18 @@
+<!-- {{cart.soluong}}
+{{cart.item.name}}
+{{cart.item.gia}}
+<img src="{{cart.item.img}}"> -->
+
+<h2 style="text-align:center">Product Card</h2>
+<div class="row">
+    <div class="column">
+        <img src="{{cart.item.img}}" style="width:100%">
+    </div>
+    <div class="column">
+        <div class="card">
+            <h1>{{cart.item.name}}</h1>
+            <p class="price">{{cart.item.gia}}</p>
+            <p><button>Add to Cart</button></p>
+        </div>
+    </div>
+</div>

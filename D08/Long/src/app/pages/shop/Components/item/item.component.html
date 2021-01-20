@@ -1,0 +1,11 @@
+<div class="card">
+    <img src="{{item.img}}" alt="">
+    <div class="container">
+        <p>{{item.ID}}</p>
+        <h4>{{item.name}}</h4>
+        <p>{{item.gia}}</p>
+        <p>{{item.quantity}}</p>
+        <p *ngIf="!item.stock">Hết hàng</p>
+        <p *ngIf="item.stock">Còn hàng</p>
+    </div>
+</div>

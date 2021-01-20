@@ -1,0 +1,64 @@
+.MonHang
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:burlywood;
+    padding: 1%;
+    width: 40vw;
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#content
+{
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px;
+    background-color: lightcoral;
+    color: white;
+    
+}
+
+p
+{
+    margin-left: 5%;
+}
+
+img
+{
+    height: 300px; 
+    width: 300px;
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px;
+    border-color: white;
+    margin-left: 20%;
+}
+
+.button 
+{
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px;
+    margin-top: 35%;
+    width: 15vw;
+    text-align: center;
+    font-size: 20px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+  
+.button //Before
+{
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px;
+    background-color: lightcoral;
+    border-color: white;
+    color: white;
+}
+  
+.button:hover //After
+{
+    background-color: white;
+    border-color: white;
+    color: black;
+}

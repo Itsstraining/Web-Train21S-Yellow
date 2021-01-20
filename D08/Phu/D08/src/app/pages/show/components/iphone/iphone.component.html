@@ -1,0 +1,9 @@
+<div class="column">
+    <img src="{{iphone.img}}" alt="" height="170px">
+    <p>{{iphone.id}}</p>
+    <p>{{iphone.name}}</p>
+    <p>{{iphone.price}}</p>
+    <p>{{iphone.quantity}}</p>
+    <p *ngIf="!iphone.inStock">Còn hàng</p>
+    <p *ngIf="iphone.inStock">Hết hàng</p>
+</div>

@@ -1,0 +1,39 @@
+.MonHang
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:burlywood;
+    padding: 1%;
+    width: 50vw;
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#content
+{
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px;
+    background-color: lightcoral;
+    color: white;
+
+    display: flex;
+    flex-direction: row;
+}
+
+p
+{
+    margin-left: 5%;
+}
+
+img
+{
+    height: 300px; 
+    width: 300px;
+    border-style: solid;
+    border-radius: 10px 10px 10px 10px;
+    border-color: white;
+    margin-left: 60%;
+    margin-top: 2%;
+}

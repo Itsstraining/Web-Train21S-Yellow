@@ -1,0 +1,22 @@
+<div style="display: flex; flex-direction: column; align-items: center;">
+
+    <div class="MonHang">
+
+        <div id="content">
+
+            <div style="display: flex; flex-direction: column; width: 250px;">
+                <p>Số lượng: {{cart.SoLuong}}</p>
+                <p>ID sản phẩm: {{cart.item.id}}</p>
+                <p>Tên sản phẩm: {{cart.item.Name}}</p>
+                <p>Tình trạng: {{cart.item.Stock}}</p>
+                <p>Giá thành phần: {{cart.item.price}} vnđ</p>
+                <p>Tổng giá: {{cart.item.price*cart.SoLuong}} vnđ</p>
+            </div>
+
+            <div>
+                <img src="{{cart.item.img}}" alt="">
+            </div>
+
+        </div>
+    </div>
+</div>

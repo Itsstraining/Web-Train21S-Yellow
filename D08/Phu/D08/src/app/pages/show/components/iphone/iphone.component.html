@@ -4,6 +4,8 @@
     <p>{{iphone.name}}</p>
     <p>{{iphone.price}}</p>
     <p>{{iphone.quantity}}</p>
+    <app-counter></app-counter>
     <p *ngIf="!iphone.inStock">Còn hàng</p>
     <p *ngIf="iphone.inStock">Hết hàng</p>
+    <a [routerLink] = "'Cart'">Add to Cart</a>
 </div>

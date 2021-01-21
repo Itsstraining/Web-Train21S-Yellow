@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="column">
+        <img src="{{cart.iphone.img}}" alt="">
+    </div>
+    <div class="column">
+        <h1>{{cart.iphone.name}}</h1>
+        <h3>ID: {{cart.iphone.id}}</h3>
+        <h4>Price: {{cart.iphone.price}}USD</h4>
+    </div>
+    <div class="column">
+        <h2>Quanity: {{cart.quantity}}</h2>
+        <button (click) = "add()">+</button>
+        <button (click) = "remove()">-</button>
+    </div>
+    <div class="column">
+        <h2>Total: </h2>
+    </div>
+</div>

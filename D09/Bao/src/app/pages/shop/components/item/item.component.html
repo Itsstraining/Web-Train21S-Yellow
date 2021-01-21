@@ -1,0 +1,63 @@
+<div style="display: flex; flex-direction: column; align-items: center;">
+
+    <div class="MonHang">
+
+        <div style="display: flex; flex-direction: row;">
+
+            <div style="display: flex; flex-direction: column;">
+
+                <div id="content">
+                    <p>ID sản phẩm: {{item.id}}</p>
+                    <p>Tên sản phẩm: {{item.Name}}</p>
+                    <p *ngIf="item.Stock">Tình trạng: Còn hàng</p>
+                    <p *ngIf="!item.Stock">Tình trạng: Hết hàng</p>
+                    <p>Giá: {{item.price}} vnđ</p>
+                </div>
+
+                <div>
+                    <button class="button" (click)="addToCart()">
+                        <p>Thêm vào giỏ hàng</p>
+                    </button>
+                </div>
+
+            </div>
+
+            <div>
+                <img src="{{item.img}}" alt="">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- <div class="MonHang">
+
+        <div style="display: flex; flex-direction: row;">
+
+            <div style="display: flex; flex-direction: column;">
+
+                <div id="content">
+                    <p>ID sản phẩm: {{item.id}}</p>
+                    <p>Tên sản phẩm: {{item.Name}}</p>
+                    <p *ngIf="item.Stock">Tình trạng: Còn hàng</p>
+                    <p *ngIf="!item.Stock">Tình trạng: Hết hàng</p>
+                    <p>Giá: {{item.price}} vnđ</p>
+                </div>
+
+                <div>
+                    <button class="button" (click)="addToCart()">
+                        <p>Thêm vào giỏ hàng</p>
+                    </button>
+                </div>
+
+            </div>
+
+            <div>
+                <img src="{{item.img}}" alt="">
+            </div>
+
+        </div>
+
+    </div> -->
+
+</div>

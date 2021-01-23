@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { InputService } from '../../../../Services/input.service';
 
 @Component({
   selector: 'app-table',
@@ -7,14 +8,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TableComponent implements OnInit {
 
-  constructor() { }
+  constructor(private balen: InputService) { }
 
   ngOnInit(): void {
-    for (let i = 0; i < 100; i++)
-    {
-      this.data.push(i+1)
+    for (let i = 1; i < 100; i++) {
+      this.data.push(i + 1)
     }
   }
   data = []
+
+  expression: string = ''
+  res = 0
+
+  change() {
+
+    console.log(this.expression)
+    this.balen.stringToExpression(this.expression)
+    this.res = this.balen.executePostfix()
+  }
 
 }

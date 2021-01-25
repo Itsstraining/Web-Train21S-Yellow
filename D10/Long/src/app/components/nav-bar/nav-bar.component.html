@@ -1,0 +1,8 @@
+<ul>
+    <li><a [routerLink]="'./'" class="active" href="#home">Home</a></li>
+    <li><a [routerLink]="'./shop'">Shop</a></li>
+    <li><a [routerLink]="'./cart'">Cart</a></li>
+    <li><a *ngIf="!this.user" (click)="Login()">Login</a></li>
+    <li><a *ngIf="this.user"(click)="Logout()">Logout</a></li>
+
+</ul>

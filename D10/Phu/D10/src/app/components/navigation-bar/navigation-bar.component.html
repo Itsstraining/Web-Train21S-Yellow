@@ -1,0 +1,19 @@
+<div class="topnav">
+    <div id="navcontent-01">
+        <a href="#">HOME</a>
+        <a [routerLink] = "'Show'">SHOP</a>
+        <a [routerLink] = "'Cart'">CART</a>
+        <a href="#">CHECKOUT</a>
+        <a *ngIf="! this.user" (click) = 'login()'>LOGIN</a>
+        <a *ngIf="this.user" (click) = 'logout()'>LOGOUT</a>
+
+        <img src="{{user.photoURL}}" height="50px" style="border-radius: 50%;">
+    </div> 
+</div>
+
+<div>
+    <label>Create new Item</label>
+    <input>
+    <label>Name</label>
+    <input>
+</div>

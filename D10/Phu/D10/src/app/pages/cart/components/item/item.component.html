@@ -1,0 +1,23 @@
+<div class="row" *ngIf="cart.quantity != 0">
+    <div class="column">
+        <img src="{{cart.iphone.img}}" alt="">
+    </div>
+    <div class="column">
+        <h1>{{cart.iphone.name}}</h1>
+        <h3>ID: {{cart.iphone.id}}</h3>
+        <h4>Price: {{cart.iphone.price}}USD</h4>
+    </div>
+    <div class="column">
+        <h2>Quanity: {{cart.quantity}}</h2>
+        <div class="row-kid">
+            <button (click)="add()">+</button>
+            <button (click)="remove()">-</button>
+            <button (click)="cleanCart()">Clean</button>
+        </div>
+
+        <button (click)="removeAll()">Remove All</button>
+    </div>
+    <div class="column">
+        <h2>Total: </h2>
+    </div>
+</div>

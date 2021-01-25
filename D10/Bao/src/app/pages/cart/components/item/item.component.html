@@ -1,0 +1,23 @@
+<div *ngIf="cart.SoLuong != 0" style="display: flex; flex-direction: column; align-items: center;">
+
+    <div class="MonHang">
+
+        <div id="content">
+
+            <div style="display: flex; flex-direction: column; width: 250px;">
+                <p>ID sản phẩm: {{cart.item.id}}</p>
+                <p>Tên sản phẩm: {{cart.item.Name}}</p>
+                <p *ngIf="cart.item.Stock">Tình trạng: Còn hàng</p>
+                <p *ngIf="!cart.item.Stock">Tình trạng: Hết hàng</p>
+                <p>Giá thành phần: {{cart.item.price}} vnđ</p>
+                <p>Tổng giá: {{cart.item.price*cart.SoLuong}} vnđ</p>
+                <p>Số lượng: {{cart.SoLuong}}</p>
+                <p><button type="button" (click)="clearCart()"> Hủy thêm hàng </button></p>
+            </div>
+
+            <div>
+                <img src="{{cart.item.img}}" alt="">
+            </div>
+        </div>
+    </div>
+</div>

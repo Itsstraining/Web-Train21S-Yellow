@@ -1,0 +1,158 @@
+
+/** grid **/
+
+body, main {
+    display: grid;
+    grid-gap: 1rem;
+  }
+  
+  main {
+    grid-template: 
+      "content" 
+      "summary" 
+      "actions" 
+      "help"
+      "promo";
+  }
+  
+  @media ( min-width: 50rem ) {
+    main {
+      grid-template: 
+        "promo promo"
+        "content summary" 
+        "content actions" 
+        "content help";
+      grid-template-columns: auto 20rem;
+    }
+  }
+  
+  .summary { grid-area: summary; }
+  .promo { grid-area: promo; }
+  .actions { grid-area: actions; }
+  .cart { grid-area: content; }
+  .help { grid-area: help; }
+  
+    
+    
+    
+  /** styling **/
+  
+  @media ( min-width: 50rem ) {
+    body, main {
+      max-width: 60rem;
+    }
+    body {
+      margin: auto;
+    }
+  }
+  
+  
+  .summary {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    background: hsla(255,20,40,1);
+    .total { 
+      font-family: monospace;
+      text-align: right; 
+    }
+  }
+  
+  .cart {
+    .item {
+      display: flex;
+      justify-content: space-between;
+      font-family: monospace;
+      font-size: 18px;
+      &:not(:last-child) {
+        margin-bottom: 0.5rem;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px dotted hsla(225,25,50,1);
+      }
+    }
+    .name {
+      font-size: 18px;
+      font-weight: 400;
+      margin: 0;
+    }
+    .price {
+      font-family: monospace;
+      margin: 0;
+    }
+  }
+  @media ( min-width: 50rem ) {
+    .cart { padding: 2rem 1rem; }
+    .cart .name, 
+    .cart .price { font-size: 24px; }
+    .cart .item:not(:last-child) { 
+      margin-bottom: 1rem; 
+      padding-bottom: 1rem;
+    }
+  }
+  
+  .actions {
+    background: hsla(165,20,40,1);
+    text-align: right;
+    button {
+      background: hsla(165,70,50,1);
+      box-shadow: 0 2px 4px hsla(165,35,10,1);
+      border: none;
+      border-radius: 3px;
+      padding: 0.5rem 1rem;
+    }
+  }
+  
+  .promo {
+    color: hsla(65,20,20,1);
+    background: hsla(65,20,40,1);
+    font-weight: 800;
+  }
+  
+  @media ( min-width: 50rem ) {
+    .promo {
+      min-height: 0;
+      text-align: center;
+    }
+  }
+  
+  .help {
+    color: hsla(15,30,70,1);
+    background: hsla(15,20,40,1);
+  }
+  
+  header, footer, section {
+    background: hsla(225,15,30,1);
+    box-shadow: 0 4px 4px 2px hsla(225,15,10,0.2);
+    border-radius: 3px;
+    padding: 1rem;
+  }
+  
+  section {
+    min-height: 3rem;
+  }
+  
+  header, footer {
+    box-shadow: none;
+    color: hsla(225,15,35,1);
+    background: hsla(225,15,21,1);
+    border: 1px dashed hsla(225,15,30,1);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+    word-spacing: 1rem;
+    font-weight: 800;
+  }
+  
+  body {
+    color: white;
+    background: hsl(222,14,23);
+    padding: 20px;
+    font-family: "Heebo", sans-serif;
+    font-weight: 300;
+  }
+  
+  ul { 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+  }

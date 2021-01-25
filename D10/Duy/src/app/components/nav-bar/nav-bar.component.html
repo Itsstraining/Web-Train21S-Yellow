@@ -1,0 +1,25 @@
+<div class="nav">
+    <input type="checkbox" id="nav-check">
+    <div class="nav-header">
+      <div class="nav-title">
+        Shop Bán Quần Áo
+      </div>
+    </div>
+    <div class="nav-btn">
+      <label for="nav-check">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+    
+    <div class="nav-links">
+      <a [routerLink]="'/addshop'">AddSP</a>
+      <a [routerLink]="'/shop'">Shop</a>
+      <a [routerLink]="'cart'">Cart</a>
+      <a *ngIf ="!this.user" (click)= 'login()'>Login</a>
+      <a *ngIf = "this.user" (click)= 'logout()'>Logout</a>
+      <img src="{{user.photoURL}}" height="30px" >
+      <!-- <h1 {{user.displayname}}></h1> -->
+    </div>
+  </div>
